@@ -1,1 +1,2 @@
-autocmd BufNewFile,BufRead *mf setf Miranda
+au BufRead,BufNewFile *.m set filetype=Miranda
+

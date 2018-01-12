@@ -36,16 +36,16 @@ syn match mNumber /[0-9]\+\.*[0-9]*e*[0-9]*/
 syn keyword mBoolean True False
 
 " Highlights
-highlight link mStatement Statment
-highlight link mConditional Conditional
-highlight link mType Type
-highlight link mSpecial Special
-highlight link mComment Comment
-highlight link mOperators Operator
-highlight link mIdentifier Identifier
-highlight link mString String
-highlight link mNumber Number
-highlight link mBoolean Boolean
+hi def link mStatement Statment
+hi def link mConditional Conditional
+hi def link mType Type
+hi def link mSpecial Special
+hi def link mComment Comment
+hi def link mOperators Operator
+hi def link mIdentifier Identifier
+hi def link mString String
+hi def link mNumber Number
+hi def link mBoolean Boolean
 
 
 let b:current_syntax = "Miranda"

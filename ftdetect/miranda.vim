@@ -1,2 +1,2 @@
-au BufRead,BufNewFile *.m set filetype=Miranda
+au BufRead,BufNewFile *.m set filetype=miranda
 

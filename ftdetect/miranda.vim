@@ -1,1 +1,1 @@
-autocmd BufNewFile,BufRead *m setf Miranda
+autocmd BufNewFile,BufRead *mf setf Miranda

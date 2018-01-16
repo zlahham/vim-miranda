@@ -4,6 +4,8 @@ This is an experimental attempt at highlighting [Miranda](https://en.wikipedia.o
 
 I hope this is helpful to other people.
 
+![Preview in vim](./readme.png)
+
 ## Installation Instructions
 
 *Vundle:* Place this in your .vimrc:

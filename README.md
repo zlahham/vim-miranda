@@ -8,12 +8,32 @@ I hope this is helpful to other people and Pull Requests are welcome!
 
 ## Installation Instructions
 
-*Vundle:* Place this in your .vimrc:
+### Vundle
+Place this in your .vimrc:
 
 ```sh
-Plugin 'tpope/vim-fugitive'
+Plugin 'zlahham/vim-miranda'
 # … then run the following in Vim:
 
 :source %
 :PluginInstall
+```
+
+### Pathogen
+Run the following in a terminal:
+
+```sh
+cd ~/.vim/bundle
+git clone https://github.com/vim-scripts/Miranda-syntax-highlighting
+```
+
+### VimPlug
+Place this in your .vimrc:
+
+```sh
+Plug 'zlahham/vim-miranda'
+… then run the following in Vim:
+
+:source %
+:PlugInstall
 ```
